@@ -1,0 +1,134 @@
+body {
+  background-color: #d1e6eb;
+}
+
+#budget-expense {
+  display: flex;
+}
+
+#budget-footer {
+  background-color: #01579B;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  line-height: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  left: 10px;
+  box-shadow: 4px 4px 10px #777777;
+}
+
+.set-Budget-Area,
+.expenses-Area {
+  width: 50%;
+  margin: 5px;
+}
+
+fieldset {
+  height: 150px;
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #777777;
+  background: #f1dac4;
+  border: none;
+}
+
+.transaction {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #01579B;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#budget-flex {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.set-Budget-Area,
+.expenses-Area {
+  width: 50%;
+}
+
+#transaction-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1dac4;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#transaction-value p {
+  margin: 10px;
+}
+
+#No-OF-transactions,
+#All-Transaction-Amount {
+  font-weight: bold;
+}
+
+#expense-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#expense-flex span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#budget-flex span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#expense-list {
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#expense-description,
+#expense-date,
+#expense-amount,
+#budget-Input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+
+#expense-btn,
+#update-budget-button {
+  padding: 5px 10px;
+  background-color: #01579B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#expense-btn:hover,
+#update-budget-button:hover {
+  background-color: #003c70;
+}
